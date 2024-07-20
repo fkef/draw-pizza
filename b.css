@@ -1,0 +1,49 @@
+a:link{
+    padding: 10px 20px;
+    background-color: white;
+    border:  solid 2px black;
+    text-decoration: none;
+    border-radius: 12px;
+    width: 100px;
+    margin: 10px;
+}
+a:link:hover {
+    background-color: #ccc;
+    color: white;
+  }
+
+  html{
+    background-color: black;
+  }
+  h1{
+    color: gold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+  }
+  img{width: 500px;}
+
+  input[type="id"]{
+    padding: 10px 20px;
+    width: 1000px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+  input[type="password"]{
+    padding: 10px 20px;
+    width: 1000px;
+    border: solid 1px black;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  div{
+    background-color: #cccc;
+    width: 1020px;
+  }

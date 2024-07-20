@@ -1,0 +1,54 @@
+
+html{background-color: #ff7e00}
+
+img{width: 500px;}
+
+h1{ text-align: center;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 100;
+color: white;}
+
+p{
+    color: white;
+}
+
+#K{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+#k th,#k td{
+    border: solid 1px black;
+    padding: 13px;
+}
+
+#k tr:nth-child(even){
+    background-color: white;
+}
+#k tr:hover{
+    background-color: #ccc;
+}
+
+
+#k th{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: left;
+    color: black;
+    background-color: white;
+}
+
+a:link{
+    padding: 10px 20px;
+    background-color: white;
+    border:  solid 2px black;
+    text-decoration: none;
+    border-radius: 12px;
+    width: 100px;
+    margin: 10px;
+}
+a:link:hover {
+    background-color: #ccc;
+    color: white;
+  }
